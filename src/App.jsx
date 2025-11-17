@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Contact from "./pages/contact";
 import Navbar from "./components/Navbar";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 
 function App () {
@@ -15,7 +15,7 @@ function App () {
         <Route path="/products" element={<Products />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      {/* <Footer /> */}
+       <Footer />
     </Router>
   );
 }

@@ -3,7 +3,7 @@ import"./Navbar.css"
 
 export default function Navbar () {
         return (
-            <nav>
+            <nav className="navbar">
                 <div>
                     <img className="logo" src="/src/assets/bus-logo.jpg" alt="logo" />
                 </div>

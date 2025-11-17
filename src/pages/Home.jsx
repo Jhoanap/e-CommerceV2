@@ -1,7 +1,7 @@
 import "./Home.css"
 import headerVideo from "../assets/headervid.mp4"
 import aboutImage from "../assets/grouppic.jpg"
-import ReviewsSlider from "../components/Reviews";
+import ReviewsSlider from "../components/Reviews.jsx"
 
 export default function Home() {
     return (
